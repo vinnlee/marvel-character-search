@@ -1,24 +1,11 @@
-# marvel-search
+# Marvel character search
 
-## Project setup
-```
-npm install
-```
+A project that I built while learning VueJS and Vuex using the [Marvel API](https://developer.marvel.com/).
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+To running it locally:
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- Clone this repository.
+- `npm i` to install all dependencies.
+- `npm run serve` to start the local server.
+- `npm run build` to build files for production.
+- `npm run lint` to lints and fixes files.

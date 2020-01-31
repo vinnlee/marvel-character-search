@@ -1,28 +1,36 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div class="container">
+      <search-box></search-box>
+      <result-list></result-list>
+    </div>
+    <copy-right></copy-right>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import SearchBox from "./components/SearchBox.vue";
+import ResultList from "./components/ResultList.vue";
+import CopyRight from "./components/Footer.vue";
 
 export default {
-  name: 'app',
+  name: "app",
   components: {
-    HelloWorld
+    SearchBox,
+    ResultList,
+    CopyRight
   }
-}
+};
 </script>
 
 <style>
+html,
+body {
+  height: 100%;
+}
+
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  min-height: 100%;
+  position: relative;
 }
 </style>
