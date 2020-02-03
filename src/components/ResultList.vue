@@ -3,7 +3,7 @@
     <div
       v-for="character in characters"
       :key="character.id"
-      class="column is-one-third"
+      class="column is-4-desktop is-6-tablet is-12-mobile"
     >
       <div class="card">
         <div class="card-image">
@@ -15,9 +15,7 @@
           <div class="media">
             <div class="media-content">
               <p class="title is-4">
-                <a :href="character.url" target="_blank">{{
-                  character.name
-                }}</a>
+                <a :href="character.url" target="_blank">{{ character.name }}</a>
               </p>
             </div>
           </div>

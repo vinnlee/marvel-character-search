@@ -34,6 +34,6 @@ export default {
 
 <style scoped>
 .search-form {
-  padding-top: 50px;
+  padding-top: 10px;
 }
 </style>

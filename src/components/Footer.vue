@@ -4,8 +4,8 @@
       <p>
         Made with
         <span role="img" aria-label="a laptop computer">💻</span>,
-        <span role="img" aria-label="a cup of tea"> ☕ </span> and
-        <span role="img" aria-label="love"> ❤️ </span> by
+        <span role="img" aria-label="a cup of tea">☕</span> and
+        <span role="img" aria-label="love">❤️</span> by
         <a target="_blank" href="https://github.com/vinnlee/">Vincent Lee</a>
       </p>
       <p>
