@@ -23,9 +23,9 @@
 </template>
 
 <script>
-import SearchBox from "./components/SearchBox.vue";
-import ResultList from "./components/ResultList.vue";
-import CopyRight from "./components/Footer.vue";
+import SearchBox from "@/components/SearchBox";
+import ResultList from "@/components/ResultList";
+import CopyRight from "@/components/Footer";
 
 export default {
   name: "app",

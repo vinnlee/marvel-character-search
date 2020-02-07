@@ -14,9 +14,7 @@
         <div class="card-content">
           <div class="media">
             <div class="media-content">
-              <p class="title is-4">
-                <a :href="character.url" target="_blank">{{ character.name }}</a>
-              </p>
+              <h2 class="title is-4">{{ character.name }}</h2>
             </div>
           </div>
           <div class="content">{{ character.description | stripHtml }}</div>
